@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #78b8fc; /* Blå bakgrund */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: hsl(208, 91%, 64%); /* Bakgrundsfärg för header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #333;
+}
+
+.App-link {
+  color: #b6ebf9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header, footer {
+  background-color: #62a3f8; /* Bakgrundsfärg för header och footer */
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+  color: #5198f5;
+}
+
+.main {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  background-color: #fffacd; /* Ljusgul bakgrund */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px; /* Justera bredden som passar din design */
+  height: 200px; /* Justera höjden som passar din design */
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-me, .skills, .experience, .education, .contact {
+  background-color: #fffacd; /* Ljusgul bakgrund */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.about-me .container,
+.skills .container,
+.experience .container,
+.education .container,
+.contact .container {
+  text-align: center;
+}
+
+.about-me h2, 
+.skills h2, 
+.experience h2, 
+.education h2, 
+.contact h2 {
+  color: #91c0f3; /* Blå text för rubriken */
+  margin-bottom: 20px; /* Lägger till utrymme under rubrikerna */
+}
+
+.about-text, .skills-text, .education-text, .experience-text, .contact-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Listor i skills och experience sektionerna */
+.skills ul, .experience ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centrera texten i listan */
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.skills li, .experience li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.profile-img {
+  width: 200px; /* Justera bredden som passar vår design */
+  height: 200px; /* Justera höjden som passar vår design */
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; /* Lägg till toppmarginal för att flytta bilden nedåt */
+}
