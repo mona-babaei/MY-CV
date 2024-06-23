@@ -10,7 +10,7 @@ function Skills() {
           <div className="col-md-6">
             <ul className="list-unstyled">
               <li>•Språk och teknologier: C#, JavaScript, HTML, CSS, SQL</li>
-              <li>•	Ramverk och bibliotek: ASP.NET, Blazor, React, Bootstrap</li>
+              <li>•	Ramverk och bibliotek: ASP.NET, Blazor, Entity Framework Core, React, Bootstrap</li>
               <li>•	Principer och mönster: Objektorienterad programmering (OOP), Generics, LINQ</li>
               <li>•	Databaser: SQL Server, NoSQL, Azure Cosmos DB</li>
               <li>•	Utvecklingsverktyg: Visual Studio,Vsc, Git, GitHub, Azure DevOps</li>
